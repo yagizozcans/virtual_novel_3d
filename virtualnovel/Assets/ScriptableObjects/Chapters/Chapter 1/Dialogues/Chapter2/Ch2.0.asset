@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8873f87cd78ed940813fa764a277eca, type: 3}
+  m_Name: Ch2.0
+  m_EditorClassIdentifier: 
+  sentences:
+  - Who is this girl Yagiz?
+  - Shouldn't I be the one asking this? I'm the one in a relationship?!
+  - "What the f*ck are you talking about? I'm his fi\xE2nce?!?!"
+  - I CAN EXPLAIN.
+  tip: 0 Is You To Speak
+  whichCharacterGoingToSpeak: 000000000100000000000000ffffffff
+  isAddText: 00000000
+  dialogueCharacters:
+  - character: {fileID: 5081057029126184256, guid: 753133a9c65c7be4fa89cd47187b7e7c,
+      type: 3}
+    characterPositions:
+    - {x: 0.5, y: -1.3, z: 0}
+    npcName: Ichuri Kasami
+    animator: {fileID: 0}
+    faceAnimator: {fileID: 0}
+    playingAnimation: angry
+    characterAnimationsQueue:
+    - surprise
+    - surprise
+    - angry
+    - angry
+    characterAnimationsQueueFace:
+    - surprise
+    - surprise
+    - angry
+    - angry
+  - character: {fileID: 277064503762411003, guid: 22bf891564b585848a771e3399ce4c34,
+      type: 3}
+    characterPositions:
+    - {x: -0.5, y: -1.3, z: 0}
+    npcName: Aoi Fuji
+    animator: {fileID: 0}
+    faceAnimator: {fileID: 0}
+    playingAnimation: angry
+    characterAnimationsQueue:
+    - handbackidle
+    - surprise
+    - angry
+    - angry
+    characterAnimationsQueueFace:
+    - joy
+    - surprise
+    - angry
+    - angry
+  background: {fileID: 21300000, guid: 14ccef56c1306584bae7157b7809dbd8, type: 3}

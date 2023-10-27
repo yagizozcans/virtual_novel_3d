@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e65520bfd3b50248a5b0c34902b8ae8, type: 3}
+  m_Name: Chapter1
+  m_EditorClassIdentifier: 
+  chapterName: A Good Start
+  background: {fileID: 21300000, guid: fbd6b8885c7c6c0469e2cf22ec206faf, type: 3}
+  dialogue:
+  - {fileID: 11400000, guid: e5ffe5fdc541dc0489da59f8ec0d23df, type: 2}
+  - {fileID: 11400000, guid: 67292b0a9a4d129438adf968a1979bf9, type: 2}
